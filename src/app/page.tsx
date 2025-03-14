@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen w-full justify-center items-center bg-gradient-to-b from-[#F9FAFB] to-[#D2D6DB]">
+    <div className="flex flex-col min-h-screen w-full pt-[120px] items-center bg-gradient-to-b from-[#F9FAFB] to-[#D2D6DB]">
       <BlogCard />
     </div>
   );
